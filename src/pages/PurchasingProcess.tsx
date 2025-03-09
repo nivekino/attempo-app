@@ -1,9 +1,9 @@
-import { PassionTypeSelecctionContainer } from "../containers/PassionTypeSelecctionContainer";
+import { PassionTypeSelectionContainer } from "../containers/PassionTypeSelectionContainer";
 
 export const PurchasingProcess: React.FC = () => {
   return (
     <div>
-      <PassionTypeSelecctionContainer />
+      <PassionTypeSelectionContainer />
     </div>
   );
 };
