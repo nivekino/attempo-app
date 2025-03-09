@@ -23,3 +23,4 @@ export const passionTypes: Array<ImageButtonProps & { id: number }> = [
     redirectTo: "/",
   },
 ];
+
