@@ -20,7 +20,6 @@ export const passionTypes: Array<ImageButtonProps & { id: number }> = [
     id: 3,
     imageUrl: BgHunter,
     text: "Ser Talent Hunter",
-    redirectTo: "/",
+    redirectTo: "/HunterProcess",
   },
 ];
-

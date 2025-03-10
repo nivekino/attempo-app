@@ -1,7 +1,7 @@
 import { Button } from "@mui/material";
 import LanguageIcon from "@mui/icons-material/Language";
 
-export const LanguageButtom: React.FC = () => {
+export const LanguageButton: React.FC = () => {
   return (
     <Button
       variant="text"

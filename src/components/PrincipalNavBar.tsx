@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Logo from "../assets/img/logo.svg";
-import { BackButtom } from "./BackButtom";
-import { LanguageButtom } from "./LanguageButtom";
+import { BackButton } from "./BackButton";
+import { LanguageButton } from "./LanguageButton";
 import { Menu as MenuIcon, Close as CloseIcon } from "@mui/icons-material";
 import { Drawer, IconButton } from "@mui/material";
 
@@ -15,8 +15,8 @@ export const PrincipalNavBar: React.FC = () => {
       </div>
 
       <div className="hidden lg:flex flex-row justify-end gap-6">
-        <BackButtom />
-        <LanguageButtom />
+        <BackButton />
+        <LanguageButton />
       </div>
 
       <div className="flex lg:hidden justify-end">
@@ -33,8 +33,8 @@ export const PrincipalNavBar: React.FC = () => {
             </IconButton>
           </div>
 
-          <BackButtom />
-          <LanguageButtom />
+          <BackButton />
+          <LanguageButton />
         </div>
       </Drawer>
     </div>
