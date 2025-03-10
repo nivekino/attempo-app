@@ -1,6 +1,6 @@
 import { ClientTypeCard } from "../interfaces/ClientTypeCard";
-import BgBuissne from "../assets/img/bg-buissne.png";
-import BgNaturePerson from "../assets/img/bg-np.png";
+import BgBuissne from "../assets/img/bg-buissne.svg";
+import BgNaturePerson from "../assets/img/bg-np.svg";
 
 export const clientTypes: Array<ClientTypeCard & { id: number }> = [
   {
